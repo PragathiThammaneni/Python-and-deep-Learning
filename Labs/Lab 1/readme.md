@@ -3,5 +3,5 @@ Labs
 Pragathi Thammaneni
 Sridevi Mallipudi
 
-Documentation link:
-Video Link:
+
+Video Link:https://youtu.be/54wLDxGpyOg
