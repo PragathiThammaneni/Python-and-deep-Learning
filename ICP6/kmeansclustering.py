@@ -27,6 +27,6 @@ for k in range(1,11):
 # plot to choose the best k by using sum of squares b/w each member of cluster and its centroid.
 print(sete)
 # plot the sse and k values using matplotlib
-#plt.plot(sete.keys(), sete.values())
+plt.plot(sete.keys(), sete.values())
 #show the plot
-#plt.show()
+plt.show()
