@@ -60,5 +60,7 @@ X1,X2, Y = data.T[0], data.T[1],data.T[2]
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.scatter3D(X1, X2, Y, cmap='Greens')
+plt.plot(X1, X2, 'bo', label='Real data')
+plt.plot(X1, X2, X1 * w1 + X2 * w2 + b, 'r', label='Predicted data')
 plt.legend()
 plt.show()
