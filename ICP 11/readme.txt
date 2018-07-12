@@ -9,3 +9,6 @@ AdamOptimizer			0.02	3000	0.071712
 				0.01	30000	0.03256
 GradientDescentOptimizer	0.2	1001	0.26548475
 				0.1	1001	0.27859616
+
+
+RMS optimizer has less loss compared to other optimizers when compared to other .And also with more no.of steps the autoencoder gives the less loss.
